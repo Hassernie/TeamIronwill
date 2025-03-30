@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Dragon Boat Singapore</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="logo">
+       <a href="index.html"><img src="images/ironwill_logo.png" alt="Ironwill Logo"></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="teams.html">Teams</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <header class="creative-header gallery-header">
+    <h1>Gallery</h1>
+    <p>Capturing Moments On and Off the Water</p>
+  </header>
+
+  <main class="main-content">
+    <p>Click on any image to view it larger and navigate through the gallery.</p>
+    <div class="gallery-container" id="gallery-grid">
+       <a href="images/gallery2.jpg" class="gallery-item" data-caption="Post-Race Day Smiles">
+        <img src="images/gallery2.jpg" alt="Post-Race Day" class="gallery-img">
+      </a>
+       <a href="images/gallery3.jpg" class="gallery-item" data-caption="Team ASD Training Session">
+        <img src="images/gallery3.jpg" alt="Team ASD Training" class="gallery-img">
+      </a>
+       <a href="images/gallery4.jpg" class="gallery-item" data-caption="Focused Land Training">
+         <img src="images/gallery4.jpg" alt="Land Training" class="gallery-img">
+      </a>
+       <a href="images/gallery5.jpg" class="gallery-item" data-caption="Exhaustion & Elation: Ironwill Water Training">
+         <img src="images/gallery5.jpg" alt="Exhaustion From Ironwill Water Training" class="gallery-img">
+      </a>
+       <a href="images/gallery6.jpg" class="gallery-item" data-caption="Team Bonding Session">
+         <img src="images/gallery6.jpg" alt="Team Bonding Session" class="gallery-img">
+      </a>
+       <a href="images/gallery7.jpg" class="gallery-item" data-caption="Victory! Team ASD Champion">
+         <img src="images/gallery7.jpg" alt="Team ASD Champion !" class="gallery-img">
+       </a>
+       </div>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-modal="true" role="dialog" aria-hidden="true" aria-labelledby="lightbox-caption">
+    <button class="lightbox-close" aria-label="Close dialog">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous image">&#10094;</button>
+    <button class="lightbox-next" aria-label="Next image">&#10095;</button>
+    <div class="lightbox-content-wrapper"> <img class="lightbox-content" id="lightbox-img" src="" alt="Enlarged gallery image">
+       <div id="lightbox-caption" class="lightbox-caption" aria-live="polite"></div> </div>
+  </div>
+
+<footer>
+  <div class="footer-content">
+    <p class="copyright">&copy; 2025 Team Ironwill Singapore</p>
+    <div class="social-links">
+      <h3>Connect with us!</h3>
+      <a href="https://www.facebook.com/TeamIronwill.TampinesChangkatCSC" target="_blank" rel="noopener noreferrer" class="social-icon facebook-link">
+        Facebook </a>
+      </div>
+    </div>
+</footer>
+
+  <script src="scripts.js" defer></script> </body>
+</html>
